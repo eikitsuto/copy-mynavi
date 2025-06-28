@@ -6,6 +6,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/company" element={<Home />} />
+        <Route path="/mypage" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
