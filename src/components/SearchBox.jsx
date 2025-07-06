@@ -26,16 +26,9 @@ const SearchBox = () => {
 
   return (
     <Box sx={{ backgroundImage: `url(${backgroundImage})`, height: "380px" }}>
-      <Container
-        sx={{
-          display: "flex",
-          alignItems: "center",
-          height: "100%",
-        }}
-      >
+      <Container sx={{ p: 3 }}>
         <Box
           sx={{
-            // mt: 5,
             width: "50%",
             border: "1px solid #ddd",
             bgcolor: "white",
@@ -44,7 +37,7 @@ const SearchBox = () => {
           <Tabs
             value={tabIndex}
             variant="fullWidth"
-            TabIndicatorProps={{ style: { display: "none" } }}
+            TabIndicatorProps={{ style: { display: "none" }, mt: 30 }}
           >
             <Tab
               value={0}
