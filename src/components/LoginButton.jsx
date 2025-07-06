@@ -13,6 +13,7 @@ const LoginButton = () => {
         fontSize: "1rem",
         width: "30%",
         border: "1px solid #bbb",
+        backgroundColor: "white",
       }}
     >
       ログイン

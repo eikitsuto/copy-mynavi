@@ -12,10 +12,10 @@ export default function Home() {
   const [selectedPage, setSelectedPage] = useState("トップ");
 
   return (
-    <>
+    <Box sx={{ backgroundColor: "#eee" }}>
       <Header />
       <Container>
-        <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box sx={{ display: "flex", alignItems: "center", m: "10px 0px" }}>
           <SignupButton />
           <LoginButton />
 
@@ -37,8 +37,8 @@ export default function Home() {
             </Typography>
           </Box>
         </Box>
-        <SearchBox />
       </Container>
-    </>
+      <SearchBox />
+    </Box>
   );
 }

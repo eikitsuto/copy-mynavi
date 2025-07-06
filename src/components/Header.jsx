@@ -12,12 +12,7 @@ import NavBar from "./NavBar";
 
 export default function Header() {
   return (
-    <AppBar
-      position="static"
-      color="inherit"
-      elevation={0}
-      sx={{ borderBottom: "1px solid #ccc" }}
-    >
+    <AppBar position="static" color="inherit" elevation={0}>
       <Container maxWidth="lg">
         <Toolbar disableGutters sx={{ justifyContent: "space-between", py: 1 }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
