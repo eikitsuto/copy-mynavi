@@ -8,6 +8,7 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 import LoginButton from "../components/LoginButton";
 import SignupButton from "../components/SignupButton";
 import CardList from "../components/CardList";
+import SelectionTools from "../components/SelectionTools";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("トップ");
@@ -41,6 +42,7 @@ export default function Home() {
       </Container>
       <SearchBox />
       <CardList />
+      <SelectionTools />
     </Box>
   );
 }
